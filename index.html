@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Once Upon A Dip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-placeholder">
+        <img src="images/images.jfif" alt="Business logo" class="logo-image">
+    </div>
+    <div>
+      <p class="eyebrow">FRESH • SWEET • MADE WITH CARE</p>
+      <h1 contenteditable="true">Once Upon A Dip</h1>
+      <p class="tagline" contenteditable="true">A little sweetness in every bite!</p>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Website pages">
+    <button class="tab-button active" data-page="home" aria-selected="true">1. Introduction</button>
+    <button class="tab-button" data-page="recipe" aria-selected="false">2. Our Recipe</button>
+    <button class="tab-button" data-page="contact" aria-selected="false">3. Business Info</button>
+  </nav>
+
+  <main>
+    <section class="page active" id="home">
+      <div class="hero-image image-placeholder" role="img" aria-label="Caramel apple image placeholder">
+       <img src="images/caramel-apples.png" alt="Caramel apples made by our business"> 
+        
+      </div>
+      <div class="content-card">
+        <p class="section-label">MEET OUR BUSINESS</p>
+        <h2 contenteditable="true">Welcome to Our Stand!</h2>
+        <p contenteditable="true">Welcome to Once Upon A Dip, your new favorite stop for delicious caramel apples! We make our treats with crisp apples, smooth caramel, and fun toppings. Every apple is prepared with care so customers can enjoy a sweet treat made just for them.</p>
+        <h3 contenteditable="true">What Makes Us Special?</h3>
+        <p contenteditable="true">We are a student made Company from Worth County High School.</p>
+        <div class="callout" contenteditable="true">Our goal: to make every customer’s day a little sweeter!</div>
+      </div>
+    </section>
+
+    <section class="page" id="recipe" hidden>
+      <div class="content-card">
+        <p class="section-label">MADE FRESH</p>
+        <h2 contenteditable="true">How We Make Our Caramel Apples</h2>
+        <p contenteditable="true">Follow our recipe to make a tasty caramel apple. Edit the ingredients and steps to match your business’s recipe.</p>
+        <div class="recipe-grid">
+          <div>
+            <h3>Ingredients</h3>
+            <ul contenteditable="true">
+              <li>6 medium apples</li>
+              <li>1 package of soft caramels</li>
+              <li>2 tablespoons of water (or as directed on the caramel package)</li>
+              <li>Wooden sticks</li>
+              <li>Optional toppings: chopped nuts, sprinkles, or mini chocolate chips</li>
+            </ul>
+          </div>
+          <div class="recipe-note">
+            <h3>What You Need</h3>
+            <p contenteditable="true">A saucepan or microwave-safe bowl, spoon, baking tray, parchment paper, and adult supervision when using hot caramel.</p>
+          </div>
+        </div>
+        <h3>Directions</h3>
+        <ol contenteditable="true">
+          <li>Wash the apples and dry them completely.</li>
+          <li>Carefully remove the stems and insert a wooden stick into the top of each apple.</li>
+          <li>Prepare the tray by lining it with parchment paper.</li>
+          <li>Melt the caramels with water according to the package directions, stirring until smooth. Ask an adult to help with hot caramel.</li>
+          <li>Dip each apple into the caramel and rotate it to coat the outside.</li>
+          <li>Add your favorite toppings while the caramel is still soft.</li>
+          <li>Place the apples on the prepared tray and let the caramel set before serving.</li>
+          <li>Serve and enjoy! Follow safe food-handling practices and any required storage instructions.</li>
+        </ol>
+        <p class="small-note">Student task: Keep the directions in an ordered list (numbered steps). Add, remove, or edit list items as needed.</p>
+      </div>
+    </section>
+
+    <section class="page" id="contact" hidden>
+      <div class="content-card">
+        <p class="section-label">COME SAY HELLO</p>
+        <h2 contenteditable="true">Visit Our Business</h2>
+        <p contenteditable="true">We would love to help you find your perfect caramel apple! Replace the sample information below with your business details.</p>
+        <div class="contact-list">
+          <div class="contact-item"><span class="contact-icon">☎</span><div><h3>Phone</h3><p contenteditable="true">229-772-1000</p></div></div>
+          <div class="contact-item"><span class="contact-icon">⌖</span><div><h3>Address</h3><p contenteditable="true">123 Apple Lane, Your Town, GA 00000</p></div></div>
+          <div class="contact-item"><span class="contact-icon">✉</span><div><h3>Email</h3><p contenteditable="true">hello@yourapplestand.com</p></div></div>
+          <div class="contact-item"><span class="contact-icon">◷</span><div><h3>Hours</h3><p contenteditable="true">Monday–Friday: 10:00 AM–4:00 PM</p></div></div>
+          <div class="contact-item"><span class="contact-icon">◎</span><div><h3>Social Media</h3><p contenteditable="true">@YourAppleStand</p></div></div>
+        </div>
+        <h3 contenteditable="true">Our Mission</h3>
+        <p contenteditable="true">Elevating the classic caramel apple into an artisanal experience using gourmet ingredients and local orchard harvests. </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p contenteditable="true">© 2026 Once Upon A Dip • Made with a little sweetness</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
